@@ -46,18 +46,26 @@ See the [OctoAcme Personas](octoacme-roles-and-personas.md) guide for detailed r
 
 ## OctoAcme Project Management Overview
 
-OctoAcme's project management approach is built around a clear lifecycle from initiation through planning, execution, release, and retrospective. The process emphasizes that work should begin with a validated business need, a project one-pager, stakeholder alignment, and a go/no-go decision before significant planning begins. Once approved, the team turns the initiative into a prioritized backlog with milestones, dependencies, and acceptance criteria, maintaining visibility through a project board with stages such as Backlog, Ready, In Progress, In Review, QA, and Done.
+### Lifecycle & Workflows
 
-The foundation of OctoAcme's success is clear role definition and ownership. Product Managers set outcomes and prioritize the roadmap, Project Managers coordinate planning, risk, schedule, and communication, Developers build, test, and maintain software, QA validates acceptance criteria, and Stakeholders provide input and approvals. This clarity ensures that coordination is efficient and responsibility is never ambiguous. Every project maintains key artifacts such as a charter, roadmap, risk register, backlog, and definition of done, which gives the team a shared source of truth and supports repeatable execution across projects.
+OctoAcme's project management approach is built around a clear lifecycle from initiation through planning, execution, release, and retrospective. The documentation emphasizes starting with a validated business need, a lightweight project one-pager, stakeholder alignment, and a go/no-go decision before detailed planning begins. Once approved, the team turns the idea into a prioritized backlog with milestones, dependencies, and acceptance criteria, often using a project board with columns like Backlog, Ready, In Progress, In Review, QA, and Done. This workflow keeps delivery visible and helps teams move from concept to execution in manageable, testable increments.
 
-Communication is treated as a critical element of project health. OctoAcme relies on daily or twice-weekly team check-ins, a weekly PM/PdM sync, monthly stakeholder updates, and milestone-based reviews to keep everyone informed on progress, risks, and dependencies. The process includes explicit escalation paths (team triage → PM → Product Lead → Sponsor), communication templates for status updates and incidents, and a commitment to maintaining a single source of truth for project information. This structured approach minimizes surprises and ensures that blockers surface early.
+### Roles & Ownership
 
-Quality and risk management are embedded throughout the project lifecycle. Teams define acceptance criteria and a Definition of Done before work begins, use unit, integration, and smoke tests depending on risk and complexity, run CI pipelines for automated testing and security scanning, and keep PRs small and well-documented. Before release, the team completes pre-release verification, deployment checks, and documentation. Post-release, retrospectives capture lessons learned and identify improvements. This continuous cycle of testing, validation, and learning reduces defects and builds a culture of continuous improvement.
+The process documentation defines clear ownership across core roles: Product Managers set outcomes and prioritize the roadmap, Project Managers coordinate planning, risk management, schedule, and communication, Developers build and test the work, QA validates acceptance criteria, and stakeholders provide input and approval. These personas are intended to create role clarity while supporting cross-functional collaboration. The docs also stress the importance of key artifacts such as a one-pager, backlog, risk register, release plan, and definition of done, which serve as shared sources of truth for the team and reduce ambiguity around accountability.
+
+### Communication & Escalation
+
+Communication is treated as a core project function rather than an afterthought. OctoAcme uses regular team check-ins, weekly PM/PdM alignment, monthly stakeholder updates, and milestone reviews to keep everyone informed on progress, blockers, and dependencies. The docs also define escalation paths for higher-impact issues and provide templates for weekly status updates and incident communication. This consistent communication rhythm helps surface risks early, align stakeholders, and preserve transparency across the project lifecycle.
+
+### Quality & Continuous Improvement
+
+Quality assurance is woven into each phase of delivery. Teams are expected to define acceptance criteria and a Definition of Done before work starts, and they use unit, integration, and smoke tests depending on the risk and complexity of the feature. CI is expected to run automated tests and security scanning, PRs should be small and include clear issue links and acceptance criteria, and releases should include pre-release checks, rollback plans, and post-deploy verification. Retrospectives and continuous improvement practices are built into the model so each sprint or milestone captures lessons learned and turns them into action items for future work.
 
 ## How to Use This Documentation
 
 - **New to OctoAcme?** Start with the [Project Management Overview](octoacme-project-management-overview.md) and [Personas](octoacme-roles-and-personas.md).
-- **Starting a new project?** Follow the [Initiation Guide](octoacme-initiation.md) to validate your idea and align stakeholders.
+- **Starting a new project?** Follow the [Initiation Guide](octoacme-project-initiation.md) to validate your idea and align stakeholders.
 - **In active delivery?** Reference [Execution & Tracking](octoacme-execution-and-tracking.md) and [Risk Management & Communication](octoacme-risks-and-communication.md) regularly.
 - **Preparing a release?** Review the [Release & Deployment Guide](octoacme-release-and-deployment.md) and pre-release checklist.
 - **Reflecting on a project?** Use the [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) guide.
